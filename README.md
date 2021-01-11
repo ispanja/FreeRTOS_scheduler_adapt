@@ -1,2 +1,2 @@
 # FreeRTOS_scheduler_adapt
-Adaptation FreeRTOS for EDF and LLF scheduling
+FreeRTOS has been adapted for EDF and LLF algorithms. In FreeRTOSCOnfig.h set the appropriate value for scheduling algorithm. Following file can be found scheduler_bsp/psu_cortexa53_0/libsrc/freertos901_xilinx_v1_0. Main changes for FreeRTOS kernel can be found in tasks.c file. In main.c is shown basic implement of these schedulers. BSP directory is for Ultrazed platform on which the scheduling is tested. 
